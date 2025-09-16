@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página principal</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      font-family: 'Press Start 2P', cursive;
+      background: #2a0845; /* morado arcade fijo */
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #fff;
+    }
+
+    h1 {
+      margin: 20px 0;
+      font-size: 28px;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+    }
+
+    /* Contenedor responsivo */
+    .games-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* Botón estilo tarjeta */
+    .game-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      background: rgba(255,255,255,0.1);
+      border: 2px solid transparent;
+      border-radius: 15px;
+      padding: 15px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      backdrop-filter: blur(4px);
+    }
+
+    .game-btn:hover {
+      transform: scale(1.07);
+      border-color: #ff00de; /* borde brillante rosa */
+      box-shadow: 0 0 20px #ff00de, 0 0 40px #00ffe0;
+    }
+
+    /* Imagen dentro del botón */
+    .game-btn img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      margin-bottom: 12px;
+      border-radius: 12px;
+      border: 2px solid #fff;
+      background: #000;
+    }
+
+    .game-btn span {
+      font-size: 12px;
+      color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+    }
+  </style>
+</head>
+<body>
+  <h1>🎮 Classic Games 🎮</h1>
+
+  <div class="games-container">
+    <a href="08-Tetris-Game/index.html" class="game-btn">
+      <img src="img/Tetris.png" alt="Tetris">
+      <span>Tetris</span>
+    </a>
+
+    <a href="Pacman/index.html" class="game-btn">
+      <img src="img/Pacman.jpg" alt="Pacman">
+      <span>Pacman</span>
+    </a>
+
+    <a href="Snake/index.html" class="game-btn">
+      <img src="img/Snake.jpg" alt="Serpiente">
+      <span>Serpiente</span>
+    </a>
+
+    <a href="Matar_flores/index.html" class="game-btn">
+      <img src="img/Flores.png" alt="Flores">
+      <span>Constelación rosa</span>
+    </a>
+
+    <a href="carrera_del_caos/index.html" class="game-btn">
+      <img src="img/carrera.png" alt="Carrera del caos">
+      <span>Carrera del caos</span>
+    </a>
+
+    <a href="flappy-bird/index.html" class="game-btn">
+      <img src="img/flappybird.png" alt="Flappy Bird">
+      <span>Flappy Bird</span>
+    </a>
+
+    <a href="Candy-Crush/index.html" class="game-btn">
+      <img src="img/candy.png" alt="Candy Crush">
+      <span>Candy Crush</span>
+    </a>
+
+    <a href="Órbita/src/index.html" class="game-btn">
+      <img src="img/orbita.jpg" alt="Órbita">
+      <span>Órbita</span>
+    </a>
+
+    <a href="Adriana/index.html" class="game-btn">
+      <img src="img/guerra.jpg" alt="Guerra Femenina">
+      <span>Guerra Femenina</span>
+    </a>
+
+    <a href="Tower Blocks/index.html" class="game-btn">
+      <img src="img/tower.png" alt="Tower Blocks">
+      <span>Tower Blocks</span>
+    </a>
+
+    <a href="Tiro_blanco/index.html" class="game-btn">
+      <img src="img/tiro.png" alt="Tiro al Blanco">
+      <span>Tiro al Blanco</span>
+    </a>
+
+    <a href="Pong/index.html" class="game-btn">
+      <img src="img/pong.png" alt="Pong">
+      <span>Pong</span>
+    </a>
+
+    <a href="SPACESHIP/index.html" class="game-btn">
+      <img src="img/spaceship.jpg" alt="SPACESHIP">
+      <span>SPACESHIP</span>
+    </a>
+
+    <a href="Dinosaurio/index.html" class="game-btn">
+      <img src="img/dinosaurio.png" alt="Dinosaurio">
+      <span>Dinosaurio</span>
+    </a>
+
+    <a href="Breyner/index.html" class="game-btn">
+      <img src="img/aventura.jpeg" alt="Breyner">
+      <span>Aventura</span>
+    </a>
+
+    <a href="Azul/index.html" class="game-btn">
+      <img src="img/ninja.png" alt="Ninja">
+      <span>Ninja</span>
+    </a>
+  </div>
+</body>
+</html>
